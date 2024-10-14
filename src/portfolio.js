@@ -46,12 +46,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
-  // {
-  //   name: "LinkedIn",
-  //   link: "https://www.linkedin.com/in/ashutosh1919/",
-  //   fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-  //   backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  // },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/nikola-petrovic-0790b332b",
+    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+  },
   // {
   //   name: "YouTube",
   //   link: "https://youtube.com/c/DevSense19",
@@ -553,14 +553,25 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Data Engineer, Full-Stack",
+          title: "Senior Full-Stack, Data Engineer",
           company: "Highcode Tech Ltd",
           company_url: "https://www.highcode.tech",
           logo_path: "highcode_logo.jfif",
-          duration: "December 2018 - Present",
+          duration: "December 2022 - Present",
           location: "Columbus, OH, US(Remote)",
           description:
             "Developed a private healthcare system for a start-up utilizing React, React Native, Redux, GraphQL, Tailwind CSS, Python, Generative AI and integrated third-party APIs for real-time data updates",
+          color: "#000000",
+        },
+        {
+          title: "Senior Full-Stack Engineer",
+          company: "Inmold",
+          company_url: "https://inmold-ltd.com",
+          logo_path: "inmold.svg",
+          duration: "December 2018- December 2022",
+          location: "Pozega, Serbia",
+          description:
+            "Led the development of a large-scale manufacturing automation platform, improving operational efficiency by 35%",
           color: "#000000",
         },
         {
@@ -767,7 +778,7 @@ const contactPageData = {
   },
   phoneSection: {
     title: "Mobile Phone",
-    subtitle: "+1 567 343 7004",
+    subtitle: "+1 769 208 4328",
   },
 };
 
